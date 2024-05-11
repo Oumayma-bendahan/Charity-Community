@@ -1,0 +1,37 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .gallery img
+ {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 5%;
+  }
+  
+  .gallery img:hover,
+  .gallery iframe:hover {
+    transform: scale(1.1);
+  }
+h1,h2{
+  color: white;
+  text-align: center;
+}
+  .gallery iframe {
+    width: 662px;
+    height: 400px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  body{
+    background-color: #a8741a;
+  
+  }

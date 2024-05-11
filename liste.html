@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mon chatbot - Liste des questions et réponses</title>
+	<style>
+		table {
+			border-collapse: collapse;
+			width: 100%;
+		}
+
+		th, td {
+			text-align: left;
+			padding: 8px;
+		}
+
+		th {
+			background-color: #4CAF50;
+			color: white;
+		}
+
+		tr:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+
+		tr:hover {
+			background-color: #ddd;
+		}
+	</style>
+</head>
+<body>
+	<h1>Liste des questions et réponses</h1>
+	<table>
+		<thead>
+			<tr>
+				<th>Question</th>
+				<th>Réponse</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for question_reponse in questions_reponses %}
+			<tr>
+				<td>{{ question_reponse[0] }}</td>
+				<td>{{ question_reponse[1] }}</td>
+			</tr>
+			{% endfor %}
+		</tbody>
+	</table>
+</body>
+</html>

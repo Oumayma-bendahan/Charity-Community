@@ -1,0 +1,63 @@
+.subscribe-box { 
+clear: left;
+  font-family: 'Gothic A1', serif;
+  text-align: center;
+  float: left;
+}
+.subscribe-box h2 {
+  margin: 0 0 .85em 0;
+  margin-top: 3em;
+  font-weight: 100;
+  float: left;
+  font-size: 30px;
+  font-family: 'Marcellus', serif;
+}
+
+a{
+	text-decoration:none;
+	color: rgb(37, 114, 150);
+  float: left;
+}
+.subscribe-box .subscribe {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+.subscribe-box .subscribe input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid rgb(55, 151, 175);
+  padding: 1em 0 .8em;
+  text-align: center;
+  font-size: 18px;
+  font-family: inherit;
+  float: left;
+  font-weight: 300;
+  line-height: 1.5;
+  color: #4A4141;
+  outline: none;
+}
+
+.subscribe-box .subscribe button {
+  margin-top: 2.4em;
+  background: transparent;
+  border: 2px solid rgb(65, 123, 189);
+  padding: 10px 40px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  font-weight: 700;
+  position: relative;
+  transition: 1s;
+
+}
+
+.subscribe-box .subscribe button :hover{
+
+  color: rgb(65, 123, 189);
+  float: left;
+  padding: 10px 40px;
+  transition: 1s;
+}

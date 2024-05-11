@@ -1,0 +1,52 @@
+/* Styles pour le formulaire de paiement */
+form {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  /* Styles pour les champs de saisie */
+  input[type="text"], select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Styles pour les boutons */
+  button[type="submit"], button[type="reset"] {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+  border: none;
+    border-radius: 4px;
+    background-color: #000000;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="reset"] {
+    background-color: #000000;
+  }
+  
+  /* Styles pour les messages d'erreur et de confirmation */
+  div.error, div.success {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  div.error {
+    background-color: #f2dede;
+    color: #a94442;
+  }
+  
+  div.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+  }
